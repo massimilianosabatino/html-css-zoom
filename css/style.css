@@ -57,6 +57,13 @@ h3 {
     font-weight: 300;
 }
 
+.flex-ui {
+    display: flex;
+    column-gap: 18px;
+    align-items: center;
+    text-align: center;
+}
+
 
 /*
 *  Header
@@ -132,12 +139,7 @@ footer .row {
     height: 80px;
     align-items: center;
 }
-.left-ui {
-    display: flex;
-    column-gap: 18px;
-    align-items: center;
-    text-align: center;
-}
+
 .object > i {
     font-size: 30px;
     margin-bottom: 10px;
@@ -145,4 +147,19 @@ footer .row {
 
 .expand-ui {
     height: 8px;
+}
+
+.icon-ui {
+    height: 30px;
+}
+
+.left-ui {
+    flex-grow: 1;
+}
+.center-ui {
+    flex-grow: 2;
+}
+
+img.icon-ui + h3 {
+    margin-top: 6px;
 }
