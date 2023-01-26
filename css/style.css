@@ -3,18 +3,8 @@
     padding: 0 ;
     box-sizing: border-box;
 }
-/*
-*  Debug
-*/
-/* .debug header {
-    background-color: #000;
-} */
-.caller {
-    background-color: red;
-    height: 155px;
-    width: 255px;
 
-}
+
 
 /*
 *  Commons
@@ -52,11 +42,6 @@ a {
     display: flex;
 }
 
-h3 {
-    font-size: 16px;
-    font-weight: 300;
-}
-
 .flex-ui {
     display: flex;
     column-gap: 18px;
@@ -64,6 +49,16 @@ h3 {
     text-align: center;
     flex-shrink: 0;
 }
+
+h3 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.green {
+    color: #4BC800
+}
+
 
 
 /*
@@ -92,6 +87,7 @@ header {
 }
 
 
+
 /*
 *  Main
 */
@@ -107,7 +103,7 @@ main .row {
     position: relative;
 }
 
-.profile {
+.profile-pic {
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -140,7 +136,20 @@ footer .row {
     height: inherit;
 }
 
-.object > i {
+.left-ui {
+    flex-grow: 1;
+    padding-left: 10px;
+}
+.center-ui {
+    flex-grow: 1;
+}
+.right-ui {
+    flex-grow: 0;
+    background-color: #4a4a4a;
+    padding: 0 20px;
+}
+
+.object-ui > i {
     font-size: 30px;
     margin-bottom: 10px;
 }
@@ -153,22 +162,10 @@ footer .row {
     height: 30px;
 }
 
-.left-ui {
-    flex-grow: 1;
-}
-.center-ui {
-    flex-grow: 2;
-}
-.right-ui {
-    flex-grow: 0;
-    background-color: #4a4a4a;
-    padding: 0 20px;
-}
-
 img.icon-ui + h3 {
     margin-top: 6px;
 }
 
-.close {
+.close-meet {
     color: red;
 }

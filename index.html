@@ -10,82 +10,92 @@
     <!-- /Font Awesome -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="debug">
+<body>
     <header>
+        <!-- Comandi parte superiore -->
         <nav>
             <ul class="windows-cmd">
                 <li><img src="img/grid.svg" class="icon" alt="grid icon"> Speaker View</li>
                 <li><i class="fa-solid fa-maximize"></i></li>
             </ul>
         </nav>
+        <!-- /Comandi parte superiore -->
     </header>
+
     <main>
         <div class="container">
             <div class="row">
+                <!-- Utente in chiamata -->
                 <div class="caller">
-                    <img src="https://picsum.photos/seed/people/255/155" alt="chiamante" class="profile">
+                    <img src="https://picsum.photos/seed/people/255/155" alt="chiamante" class="profile-pic">
                     <div class="display-name">
                         <i class="fa-solid fa-microphone-slash"></i>
                         <span>Mario Rossi</span>
                     </div>
                 </div>
-                
-            </div>
-            
+                <!-- /Utente in chiamata -->
+            </div> 
         </div>
     </main>
+
     <footer>
         <div class="row">
+            <!-- UI Sinistra -->
             <section class="left-ui flex-ui">
-                <div class="object">
+                <div class="object-ui">
                     <i class="fa-solid fa-microphone"></i>
                     <h3>Mute</h3>
                 </div>
                 <img src="img/arrow-up.svg" alt="arrow" class="expand-ui">
-                <div class="object">
+                <div class="object-ui">
                     <i class="fa-solid fa-video"></i>
                     <h3>Stop video</h3>
                 </div>
                 <img src="img/arrow-up.svg" alt="arrow" class="expand-ui">
             </section>
+            <!-- /UI Sinistra -->
+            <!-- UI Centrale -->
             <section class="center-ui flex-ui">
-                <div class="object">
+                <div class="object-ui">
                     <i class="fa-solid fa-user-plus"></i>
                     <h3>Invite</h3>
                 </div>
-                <div class="object">
+                <div class="object-ui">
                     <i class="fa-solid fa-user-group"></i>
                     <h3>Manage Participants</h3>
                 </div>
-                <div class="object">
+                <div class="object-ui">
                     <img src="img/chart.svg" alt="chart" class="icon-ui">
                     <h3>Polling</h3>
                 </div>
-                <div class="object">
-                    <i class="fa-solid fa-share-from-square"></i>
+                <div class="object-ui">
+                    <i class="fa-solid fa-share-from-square green"></i>
                     <h3>Share Screen</h3>
                 </div>
                 <img src="img/arrow-up.svg" alt="arrow" class="expand-ui">
-                <div class="object">
+                <div class="object-ui">
                     <i class="fa-solid fa-comment"></i>
                     <h3>Chat</h3>
                 </div>
-                <div class="object">
+                <div class="object-ui">
                     <i class="fa-solid fa-record-vinyl"></i>
                     <h3>Record</h3>
                 </div>
-                <div class="object">
+                <div class="object-ui">
                     <img src="img/4-grid.svg" alt="grid" class="icon-ui">
                     <h3>Breakout Rooms</h3>
                 </div>
-                <div class="object">
+                <div class="object-ui">
                     <i class="fa-solid fa-ellipsis"></i>
                     <h3>Record</h3>
                 </div>
             </section>
+            <!-- UI Centrale -->
+            <!-- UI Destra -->
             <section class="right-ui flex-ui">
-                <div class="close">End meeting</div>
+                <div class="close-meet">End meeting</div>
             </section>
+            <!-- UI Destra -->
         </div>
     </footer>
     
