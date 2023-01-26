@@ -52,6 +52,10 @@ a {
     display: flex;
 }
 
+h3 {
+    font-size: 16px;
+    font-weight: 300;
+}
 
 
 /*
@@ -122,5 +126,23 @@ footer {
     right: 0;
     background-color: #222;
     width: 100vw;
+}
 
+footer .row {
+    height: 80px;
+    align-items: center;
+}
+.left-ui {
+    display: flex;
+    column-gap: 18px;
+    align-items: center;
+    text-align: center;
+}
+.object > i {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.expand-ui {
+    height: 8px;
 }
